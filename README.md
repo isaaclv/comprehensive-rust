@@ -55,6 +55,9 @@ The course is built using a few tools:
 First install Rust by following the instructions on https://rustup.rs/. Then
 clone this repository:
 
+> **Note** On Windows, you need to enable symlinks
+> (`git config --global core.symlinks true`) and Developer Mode.
+
 ```shell
 git clone https://github.com/google/comprehensive-rust/
 cd comprehensive-rust
@@ -89,9 +92,6 @@ and zip exercises and add them to `book/html`. To build any of the translated
 versions of the course, run `MDBOOK_BOOK__LANGUAGE=xx mdbook build -d book/xx`
 where `xx` is the ISO 639 language code (e.g. `da` for the Danish translation).
 [TRANSLATIONS.md](TRANSLATIONS.md) contains further instructions.
-
-> **Note** On Windows, you need to enable symlinks
-> (`git config --global core.symlinks true`) and Developer Mode.
 
 ## Contact
 
